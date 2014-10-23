@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900,400);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+
+body {
+	font-family: 'PT Sans', sans-serif;	
+	font-size: 16px;
+}
+
+a {
+	color: #00F;
+	text-decoration: underline;
+}
+
+.jumbotron h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 70px;
+	color: black;
+	margin-bottom: 20px;
+}
+	.jumbotron h1 span {
+		display: block;
+		font-weight: normal;
+		font-size: 40%;
+		color: #555;
+	}
+
+h2 {
+	margin-top: 1.5em;
+	margin-bottom: 12px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#body-content {
+	max-width: 45em;
+}
+
+	#body-content li {
+		margin-bottom: .5em;
+	}
+
+.table .table td {
+	padding-top: 0;
+	padding-left: 0;
+	border: none;
+}
